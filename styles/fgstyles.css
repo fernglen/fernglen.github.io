@@ -25,7 +25,6 @@ h2	{
 
 h3{
 	font-size: 1.0em;
-	margin-bottom: 0em;
 	margin-left: 0px;
 }
 
@@ -59,7 +58,7 @@ ul	{
 	font-size: 0.8em;
 	text-align:left;
 	font-weight: lighter;
-	padding: 5px;
+	padding: 0em 1em;
 	margin-top: 0em;
 }
 
@@ -153,23 +152,23 @@ a:active {
 }
 
 .fgphoto {
-float: center;
-padding: 10px;
+	float: center;
+	padding: 10px;
 }
 
 .fgphotoR {
-float: right;
-padding: 10px;
+	float: right;
+	padding: 10px 0px 10px 20px;
 }
 
 .fgphotoL {
-float: left;
-padding: 10px;
+	float: left;
+	padding: 10px 20px 10px 0px;
 }
 
 .fgsoundL {
-float: right;
-padding: 10px;
+	float: right;
+	padding: 10px;
 }
    
 #table_content {
