@@ -1,260 +1,325 @@
 body {
-	font-family: Arial, Helvitica, sans-serif;
-	color: #000000;
-	background-color: #ECEBE1;
-	font-weight:normal;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  background-color: #ECEBE1;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
 }
-
 
 .fgtext {
-	font-weight: bold;
-	color: #003300;
+  font-weight: bold;
+  color: #003300;
 }
 
-
-h1	{
-	font-size: 1.6em;
-	color: #030;
-	text-align:center;
-	margin-top:1.0em;
+h1 {
+  font-size: 1.8em;
+  color: #030;
+  text-align: center;
+  margin-top: 1.0em;
 }
 
-h2	{
-	font-size: 1.2em;
+h2 {
+  font-size: 1.4em;
 }
 
-h3{
-	font-size: 1.0em;
-	margin-left: 0px;
+h3 {
+  font-size: 1.2em;
+  margin: 1.25em 0em 0.5em 0em;
 }
 
-h4	{
-	font-size: 1.0em;
-	font-style: italic;
-	text-align: center;
-	font-weight:normal;
+h4 {
+  font-size: 1.0em;
+  font-style: italic;
+  text-align: center;
+  font-weight: normal;
 }
 
-p	{
-	font-size: 0.8em;
-	text-align:left;
-	font-weight: lighter;
+h5 {
+  font-size: 1.0em;
+  font-weight: bold;
+  margin: 0.25em 0em;
 }
 
-
-.walknav {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.7em;
-	color: #003300;
-	text-decoration: none;
-	text-align: left;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	margin-top: 2px;
-	margin-bottom: 2px;
+ul,
+li,
+p {
+  font-size: 1em;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1.4em;
+  margin: 0.8em 0;
 }
 
-ul	{
-	font-size: 0.8em;
-	text-align:left;
-	font-weight: lighter;
-	padding: 0em 1em;
-	margin-top: 0em;
+p {
+  padding: 0;
 }
 
-
-.pagnospace	{
-	margin-top:	0em;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
-	font-weight: normal;
-	margin-bottom: 0em;
+ul {
+  padding: 0em 0.5em;
 }
 
-.pagnosp_under	{
-	margin-bottom: 0em;
-}	
-	
-.caption {
-	font-size: 0.6em;
-	text-align:center;
+li {
+  margin: 0.3em 0.6em;
 }
 
-.botanic_name {
-	font-size: 0.9em;
-	font-style:italic;
-	font-weight: lighter;
+a {
+  font-weight: normal;
 }
 
 a:link {
-	color: #630;
-	text-decoration:none;
+  color: #630;
 }
 
 a:visited {
-	color: #030;
-	text-decoration:none;
+  color: #030;
 }
 
 a:hover {
-	color: #003300;
-	text-decoration:none;
+  color: #003300;
 }
 
 a:active {
-	color: #FFFFFF;
-	text-decoration:none;
+  color: #FFFFFF;
+}
+
+.caption {
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.botanic_name {
+  font-style: italic;
 }
 
 .pindent {
-	margin-top: 0.2em;
-	text-indent: 2em;
+  text-indent: 1em;
 }
 
 .pindnosp {
-	text-indent: 2em;
-	margin-top:	0em;
-	margin-bottom: 0em;
+  text-indent: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 .about {
-	color: #FFFFFF;
-	font-size: 0.6em;
+  color: #FFFFFF;
+  font-size: 0.6em;
 }
 
 .about a:link {
-	color: #FFFFFF; 
+  color: #FFFFFF;
 }
 
 .about a:hover {
-	color: #66CC66
+  color: #66CC66
 }
 
 .about a:visited {
-	color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #footer {
-	text-align: center;
-	font-size: 0.6em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+  text-align: center;
+  font-size: 0.6em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-
 #content {
-	text-align: left;
-	width: 90%;
-	float: none;
-	position: relative;
-	padding-bottom: 10px;
-	padding-left: 30px;
+  text-align: left;
+  float: none;
+  position: relative;
+  padding: 1em 4em 2em 4em;
 }
 
 .fgphoto {
-	float: center;
-	padding: 10px;
+  float: center;
+  padding: 10px;
 }
 
 .fgphotoR {
-	float: right;
-	padding: 10px 0px 10px 20px;
+  float: right;
+  padding: 10px 0px 10px 20px;
 }
 
 .fgphotoL {
-	float: left;
-	padding: 10px 20px 10px 0px;
+  float: left;
+  padding: 10px 20px 10px 0px;
 }
 
 .fgsoundL {
-	float: right;
-	padding: 10px;
-}
-   
-#table_content {
-	font-size: 0.8em;
+  float: right;
+  padding: 10px;
 }
 
+#table_content {
+  font-size: 1em;
+  font-weight: normal;
+}
 
 .formlabel {
-	font-size: 0.8em;
+  font-size: 0.8em;
 }
-
-
-.required {
-	color: #FF0000;
-	font-weight: bold;
-	font-size: 18px;
-}
-
-.required2 {
-	color: #FF0000;
-	font-weight: bold;
-	font-size: 11px;
-}
-
 
 .small_font {
-	font-size: 0.6em;
+  font-size: 0.6em;
 }
 
 .top {
-	font-size: 0.8em;
-	color: #003300;
+  font-size: 0.8em;
+  color: #003300;
 }
 
-
 .top2 {
-	color: #FFFFFF;
-	font-size: 0.8em;
-	font-weight: bold;
+  color: #FFFFFF;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 .leftColumn a {
-	display: block;
-	padding-left: 10px;
-	color: #003300;
-	font-size: 0.7em;
-	text-align: left;
+  display: block;
+  padding-left: 10px;
+  color: #003300;
+  font-size: 0.7em;
+  text-align: left;
 }
 
 .leftColumn a:hover {
-	color: #993300;
+  color: #993300;
 }
 
 .leftColumn a#active {
-	display: block;
-	background-color: #030;
-	color: #FFFFFF;
-	margin: 0.2em 0;
-	padding: 0.2em 10px;
-	font-size: 0.7em;
-	text-decoration: none;
-	text-align: left;
+  display: block;
+  background-color: #030;
+  color: #FFFFFF;
+  margin: 0.2em 0;
+  padding: 0.2em 10px;
+  font-size: 0.7em;
+  text-decoration: none;
+  text-align: left;
 }
 
 .tborder {
-	padding-left: 0.4em;
-	padding-right: 0.5em;
-	padding-top: 0.0em;
-	border-top-width: 1px;
-	margin-top: 0em;
-	border-top-style: solid;
-	border-right-style: none;
-	border-left-style: none;
-	border-bottom-style: none;
-	border-top-color: #030;
-	
-} .row_border {
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #003300;
-	border-top-width: 2px;
-	border-top-style: solid;
-	border-top-color: #003300;
+  padding-left: 0.4em;
+  padding-right: 0.5em;
+  padding-top: 0.0em;
+  border-top-width: 1px;
+  margin-top: 0em;
+  border-top-style: solid;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-color: #030;
+}
+
+.row_border {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #003300;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #003300;
 }
 
 .plant_footer {
-	font-size: 0.8em;
-	color: #FFFFFF;
+  font-size: 0.8em;
+  color: #FFFFFF;
+}
+
+
+/* ----------- new CSS ----------- */
+
+.sidemenu {
+  background: #003300;
+  width: 6em;
+  margin: 0;
+  padding: 0;
+}
+
+.sidemenu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidemenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidemenu a {
+  color: #ddd;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.sidemenu a:hover {
+  background: #464;
+}
+
+.sidemenu .selected {
+  background: #353;
+}
+
+.sidemenu_sub a {
+  color: #ccc;
+  font-size: 1em;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.alphabeticlinks {
+  word-spacing: 0.3em;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.plantlocations {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.plantlocations th {
+  border-top: medium solid black;
+  border-bottom: medium solid black;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.3em 0.5em;
+}
+
+.plantlocations td {
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 0.25em 0.6em 0em 0.6em;
+}
+
+.planttable {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.planttable th {
+  border-top: medium solid black;
+  border-bottom: medium solid black;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 0.3em 0.5em;
+}
+
+.planttable td {
+  font-weight: normal;
+  padding: 0.1em 0.5em;
+}
+
+.planttable .separator td {
+  font-weight: bolder;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 1em 0.5em 0.3em 0.5em;
 }
