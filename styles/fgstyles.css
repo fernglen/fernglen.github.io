@@ -167,6 +167,12 @@ a:active {
   font-size: 0.6em;
 }
 
+.note {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #700;
+}
+
 .top {
   font-size: 0.8em;
   color: #003300;
