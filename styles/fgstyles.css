@@ -154,15 +154,6 @@ a:active {
   padding: 10px;
 }
 
-#table_content {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-.formlabel {
-  font-size: 0.8em;
-}
-
 .small_font {
   font-size: 0.6em;
 }
@@ -328,4 +319,16 @@ a:active {
   font-size: 1.2em;
   text-align: left;
   padding: 1em 0.5em 0.3em 0.5em;
+}
+
+.layouttable {
+  border-spacing: 0;
+  font-size: 1em;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+
+.layouttable td {
+  padding: 0 1em 0 0;
 }
