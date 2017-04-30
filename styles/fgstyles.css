@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+  clear: both;
   font-size: 1.8em;
   color: #030;
   text-align: center;
@@ -20,10 +21,12 @@ h1 {
 }
 
 h2 {
+  clear: both;
   font-size: 1.4em;
 }
 
 h3 {
+  clear: both;
   font-size: 1.2em;
   margin: 1.25em 0em 0.5em 0em;
 }
@@ -132,11 +135,6 @@ a:active {
   float: none;
   position: relative;
   padding: 1em 4em 2em 4em;
-}
-
-.fgphoto {
-  float: center;
-  padding: 10px;
 }
 
 .fgphotoR {
