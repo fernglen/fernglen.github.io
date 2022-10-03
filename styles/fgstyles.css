@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: #000000;
-  background-color: #ECEBE1;
+  background-color: #ecebe1;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -17,7 +17,7 @@ h1 {
   font-size: 1.8em;
   color: #030;
   text-align: center;
-  margin-top: 1.0em;
+  margin-top: 1em;
 }
 
 h2 {
@@ -32,14 +32,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1.0em;
+  font-size: 1em;
   font-style: italic;
   text-align: center;
   font-weight: normal;
 }
 
 h5 {
-  font-size: 1.0em;
+  font-size: 1em;
   font-weight: bold;
   margin: 0.25em 0em;
 }
@@ -83,7 +83,7 @@ a:hover {
 }
 
 a:active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .caption {
@@ -107,20 +107,20 @@ a:active {
 }
 
 .about {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 0.6em;
 }
 
 .about a:link {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about a:hover {
-  color: #66CC66
+  color: #66cc66;
 }
 
 .about a:visited {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #footer {
@@ -168,7 +168,7 @@ a:active {
 }
 
 .top2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 0.8em;
   font-weight: bold;
 }
@@ -188,7 +188,7 @@ a:active {
 .leftColumn a#active {
   display: block;
   background-color: #030;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0.2em 0;
   padding: 0.2em 10px;
   font-size: 0.7em;
@@ -199,7 +199,7 @@ a:active {
 .tborder {
   padding-left: 0.4em;
   padding-right: 0.5em;
-  padding-top: 0.0em;
+  padding-top: 0em;
   border-top-width: 1px;
   margin-top: 0em;
   border-top-style: solid;
@@ -220,9 +220,8 @@ a:active {
 
 .plant_footer {
   font-size: 0.8em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 /* ----------- new CSS ----------- */
 
@@ -329,4 +328,29 @@ a:active {
 
 .layouttable td {
   padding: 0 1em 0 0;
+}
+
+/* --- Ground for Good --- */
+
+.g4g {
+  max-width: 30em;
+  margin: 1em auto;
+  border: 0.3em solid #030;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0.5em 0.5em 1em #0006;
+  text-align: center;
+}
+
+.g4g p {
+  text-align: center;
+}
+
+.g4g .referralCode {
+  font-weight: bold;
+}
+
+.g4g .hashTag {
+  color: #030;
 }
