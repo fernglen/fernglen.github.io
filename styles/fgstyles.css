@@ -333,7 +333,7 @@ a:active {
 /* --- Ground for Good --- */
 
 .g4g {
-  max-width: 30em;
+  max-width: 35em;
   margin: 1em auto;
   border: 0.3em solid #030;
   border-radius: 1em;
@@ -344,6 +344,10 @@ a:active {
 }
 
 .g4g p {
+  text-align: center;
+}
+
+.g4g li {
   text-align: center;
 }
 
