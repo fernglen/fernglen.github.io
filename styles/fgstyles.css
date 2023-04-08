@@ -332,8 +332,8 @@ a:active {
 
 /* --- Ground for Good --- */
 
-.g4g {
-  max-width: 35em;
+.landingPageNotes {
+  max-width: 45em;
   margin: 1em auto;
   border: 0.3em solid #030;
   border-radius: 1em;
@@ -343,10 +343,10 @@ a:active {
   text-align: center;
 }
 
-.g4g p {
+.landingPageNotes p {
   text-align: center;
 }
 
-.g4g li {
+.landingPageNotes li {
   text-align: center;
 }
