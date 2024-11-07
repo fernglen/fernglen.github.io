@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-  clear: both;
+  /* clear: both; */
   font-size: 1.2em;
   margin: 1.25em 0em 0.5em 0em;
 }
@@ -227,7 +227,7 @@ a:active {
 
 .sidemenu {
   background: #003300;
-  width: 6em;
+  width: 15rem;
   margin: 0;
   padding: 0;
 }
@@ -249,7 +249,7 @@ a:active {
   font-weight: normal;
   text-decoration: none;
   margin: 0;
-  padding: 0.5em 1em;
+  padding: 0.5rem 1rem;
   display: block;
 }
 
@@ -267,55 +267,21 @@ a:active {
   padding: 0.5em 0.5em 0.5em 2em;
 }
 
-.alphabeticlinks {
-  word-spacing: 0.3em;
-  text-align: center;
-  margin: 2em 0;
+.imageR {
+  float: right;
+  width: 40%;
+  padding: 10px 0px 10px 20px;
 }
 
-.plantlocations {
+.imageL {
+  float: left;
+  width: 40%;
+  padding: 10px 20px 10px 0px;
+}
+
+.embeddedImage {
+  border: 0;
   width: 100%;
-  border-spacing: 0;
-}
-
-.plantlocations th {
-  border-top: medium solid black;
-  border-bottom: medium solid black;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 0.3em 0.5em;
-}
-
-.plantlocations td {
-  font-size: 0.8em;
-  font-weight: normal;
-  padding: 0.25em 0.6em 0em 0.6em;
-}
-
-.planttable {
-  width: 100%;
-  border-spacing: 0;
-}
-
-.planttable th {
-  border-top: medium solid black;
-  border-bottom: medium solid black;
-  font-weight: bold;
-  font-size: 1.2em;
-  text-align: left;
-  padding: 0.3em 0.5em;
-}
-
-.planttable td {
-  font-weight: normal;
-  padding: 0.1em 0.5em;
-}
-
-.planttable .separator td {
-  font-weight: bolder;
-  font-size: 1.2em;
-  text-align: left;
-  padding: 1em 0.5em 0.3em 0.5em;
 }
 
 .layouttable {
